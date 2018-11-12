@@ -1,3 +1,30 @@
-<p>
-  client-details works!
-</p>
+<div class="row" *ngIf="selectedClient">
+  <div class="col-4">
+  <div>
+     <img src={{selectedClient.general.avatar}}></div>
+  </div>
+  <div class="col-8">
+  <h2>{{selectedClient.general.firstName}}  {{selectedClient.general.lastName}}</h2>
+
+
+  <div>
+    company: {{selectedClient.job.company}}<br>
+    title: {{selectedClient.job.title}}
+  </div>
+
+  <div>
+    phone: {{selectedClient.contact.phone}}
+  </div>
+
+  <div>
+    email: {{selectedClient.contact.email}}
+  </div>
+
+  <div>
+    city: {{selectedClient.address.city}} <br>
+    country: {{selectedClient.address.country}}<br>
+    street: {{selectedClient.address.street}}<br>
+    zipCode: {{selectedClient.address.zipCode}}<br>
+  </div>
+  </div>
+</div>

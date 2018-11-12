@@ -2,17 +2,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ClientComponent } from './client/client.component';
-import { ClientDetailsComponent } from './client-details/client-details.component';
+
+import {HttpClientModule} from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
+import {ClientListComponent} from './client-list/client-list.component';
+import {ClientDetailsComponent} from './client-details/client-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClientComponent,
-    ClientDetailsComponent
+    ClientDetailsComponent,
+    ClientListComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

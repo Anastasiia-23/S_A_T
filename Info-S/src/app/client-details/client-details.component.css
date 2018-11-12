@@ -1,0 +1,9 @@
+img
+{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 128px;
+  height: 128px;
+  round-clip: 5px;
+}
+

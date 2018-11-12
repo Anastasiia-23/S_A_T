@@ -1,0 +1,31 @@
+img
+{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  round-clip: 5px;
+  float: left;
+}
+button
+{
+  border: 1px groove black;
+  height: 70px;
+  width: 101%;
+  float-defer-column: last;
+}
+.col-4,.col-8
+{
+  border: 1px solid black;
+  background-color: darkgray;
+}
+ul
+{
+  overflow-y: scroll;
+  height: 90vh;
+  width: 100%;
+}
+input
+{
+  border: 2px solid black;
+}
