@@ -4,27 +4,38 @@
      <img src={{selectedClient.general.avatar}}></div>
   </div>
   <div class="col-8">
-  <h2>{{selectedClient.general.firstName}}  {{selectedClient.general.lastName}}</h2>
+  <h1>{{selectedClient.general.firstName}}  {{selectedClient.general.lastName}}</h1><hr>
 
-
-  <div>
-    company: {{selectedClient.job.company}}<br>
-    title: {{selectedClient.job.title}}
+    <div>
+    <h5>company:</h5>  {{selectedClient.job.company}}
   </div>
-
-  <div>
-    phone: {{selectedClient.contact.phone}}
+    <br>
+    <div>
+      <h5>title:</h5> {{selectedClient.job.title}}
   </div>
-
+<br>
   <div>
-    email: {{selectedClient.contact.email}}
+    <h5>phone:</h5> {{selectedClient.contact.phone}}
   </div>
-
+<br>
   <div>
-    city: {{selectedClient.address.city}} <br>
-    country: {{selectedClient.address.country}}<br>
-    street: {{selectedClient.address.street}}<br>
-    zipCode: {{selectedClient.address.zipCode}}<br>
+     <h5>email:</h5> {{selectedClient.contact.email}}
+  </div>
+<br>
+  <div>
+    <h5>city:</h5> {{selectedClient.address.city}}
+  </div>
+    <br>
+    <div>
+     <h5>country:</h5> {{selectedClient.address.country}}
+    </div>
+    <br>
+    <div>
+      <h5>street:</h5> {{selectedClient.address.street}}
+    </div>
+    <br>
+    <div>
+     <h5>zipCode:</h5> {{selectedClient.address.zipCode}}
   </div>
   </div>
 </div>

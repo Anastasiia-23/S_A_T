@@ -1,13 +1,13 @@
 <div class="container">
 <div class="row">
-  <div class="col-4">
+  <div class="col-4 pr-1 pl-0">
     <form class="form-inline">
       <input class="form-control " type="search" placeholder="Search" aria-label="Search" style="width: 100%" >
     </form>
     <ul class="client" style="list-style-type: none;padding: 0px;">
       <li *ngFor="let client of clients" (click)="onSelect(client)">
         <button type="button" class="btn btn-light">
-          <div> <img src={{client.general.avatar}}><span>{{client.general.firstName}} {{client.general.lastName}}<br> {{client.job.title}} </span>  </div>  </button>
+          <div> <img src={{client.general.avatar}}><span><h6>{{client.general.firstName}} {{client.general.lastName}}</h6> {{client.job.title}} </span>  </div>  </button>
     </ul>
   </div>
 

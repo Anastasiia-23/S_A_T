@@ -7,3 +7,30 @@ img
   round-clip: 5px;
 }
 
+.col-4
+{
+padding: 70px;
+}
+.col-8
+{
+  padding: 70px;
+  font-style: italic;
+}
+div
+{
+  font-size: 20px;
+}
+h5
+{
+  text-transform: capitalize;
+  font-style: normal;
+}
+h1
+{
+  font-style: normal;
+  text-shadow: 1px 1px 5px lavender;
+}
+hr
+{
+  background-color: cadetblue;
+}
