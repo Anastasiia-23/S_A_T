@@ -7,12 +7,14 @@ import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import {ClientListComponent} from './client-list/client-list.component';
 import {ClientDetailsComponent} from './client-details/client-details.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ClientDetailsComponent,
-    ClientListComponent
+    ClientListComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
